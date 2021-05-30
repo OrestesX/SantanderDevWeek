@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
                 true
             }
             else -> return when (item.itemId) {
-                R.id.item2 -> {
+                R.id.item1 -> {
                     Log.d("CLICK", "Acesse o item 2")
                     true
                 }
