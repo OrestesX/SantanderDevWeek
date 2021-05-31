@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         mainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         buscarContaCliente()
+
     }
     private fun buscarContaCliente() {
         mainViewModel.buscarContaCliente().observe(this, { result ->
